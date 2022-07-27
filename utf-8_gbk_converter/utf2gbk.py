@@ -10,7 +10,6 @@ lines = source.readlines()
 for line in lines:
     res_line = line.encode('utf-8').decode('gbk')
     result.write(res_line)
-    # print(res_line)
 
 source.close()
 result.close()
